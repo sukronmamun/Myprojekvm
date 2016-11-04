@@ -1,0 +1,329 @@
+/*
+
+Edming Admin Template
+EGrappler.com
+All Rights Reserved.
+
+*/
+
+
+.btn-act{
+	padding:7px 20px;
+	border-radius: 5px;
+	background-color: #eee;
+}
+a:hover{
+	text-decoration: none;
+}
+
+/*==========================================================================================================     */
+ .dataTables_length>label>select{
+ 	width: 100px;
+ 	border-radius:5px;
+ 	border: 1px solid #ddd;
+ 	height: 30px; 
+ }
+ 
+ .dataTables_filter,.dataTables_length{
+	width: 50%;
+	float:left;
+ }
+
+ .dataTables_filter>label{
+}
+ .dataTables_filter>label>input[type=text]{
+
+ 	width: 200px;
+ 	border-radius:5px;
+ 	border: 1px solid #ddd;
+ 	height: 30px; 
+	
+ }
+
+.modal {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	box-shadow: 0 0 5px rgba(0,0,0,0.2)
+}
+.modal .modal-header .close {
+	color: rgba(0,0,0,0.5);
+	font-size: 16px;
+	line-height: 30px;
+	height: 30px;
+	margin: 0;
+	text-shadow: 1px 1px 2px #ddd, 0 0 0 #000, 0 0 1px #fff
+}
+.modal-backdrop, .modal-backdrop.fade.in {
+	background: #fff;
+	opacity: .9
+}
+.accordion-group {
+	background: #fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	border-bottom-color: #bbb;
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	overflow: hidden;
+	margin-bottom: 5px
+}
+.accordion-heading {
+	background: #fafafa;
+	background: -moz-linear-gradient(top, #fff 0, #fff 50%, #fafafa 51%, #fafafa 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(50%, #fff), color-stop(51%, #fafafa), color-stop(100%, #fafafa));
+	background: -webkit-linear-gradient(top, #fff 0, #fff 50%, #fafafa 51%, #fafafa 100%);
+	background: -o-linear-gradient(top, #fff 0, #fff 50%, #fafafa 51%, #fafafa 100%);
+	background: -ms-linear-gradient(top, #fff 0, #fff 50%, #fafafa 51%, #fafafa 100%);
+	background: linear-gradient(to bottom, #fff 0, #fff 50%, #fafafa 51%, #fafafa 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='@topColor', endColorstr='@bottomColor', GradientType=0)
+}
+.accordion-heading .accordion-toggle {
+	color: #555;
+	font-weight: bold;
+	line-height: 20px;
+	padding: 10px 15px;
+	text-decoration: none!important
+}
+.media .media-avatar {
+	 
+	border: 1px solid rgba(204, 204, 204, 0.5);
+	
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	height: 100px;
+	width: 100px;
+	margin-right: 20px
+}
+.media .media-avatar img {
+	-webkit-border-radius: 45px;
+	-moz-border-radius: 45px;
+	border-radius: 45px;
+	height: 90px;
+	width: 90px;
+	margin: 5px
+}
+.media .media-avatar.medium {
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+	height: 70px;
+	width: 70px
+}
+.media .media-avatar.medium img {
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	height: 60px;
+	width: 60px;
+	margin: 5px
+}
+.media .media-avatar.small {
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	height: 60px;
+	width: 60px
+}
+.media .media-avatar.small img {
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	height: 50px;
+	width: 50px;
+	margin: 5px
+}
+.media .media-title {
+	font-size: 14px;
+	line-height: 16px;
+	margin: 15px 0 0
+}
+.media.user {
+	padding: 15px;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	 border:1px solid transparent;
+
+}
+.media.user:hover {
+	background:#E8F6E4;
+	 border:1px solid #E8F6E4;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 14px
+}
+.media.user:hover .media-avatar {
+	background: #fff;
+	border-color: #bbb;
+	
+}
+.progress {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background:#f6f6f6;
+}
+.progress .bar {
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	 background-color: #428bca;
+}
+.progress.tight {
+	height: 10px
+}
+.progress.stacked .bar {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0
+}
+.progress.stacked .bar+.bar {
+	margin-left: -1px
+}
+.progress.stacked .bar:first-child {
+	-webkit-border-radius: 2px 0 0 2px;
+	-moz-border-radius: 2px 0 0 2px;
+	border-radius: 2px 0 0 2px
+}
+.progress.stacked .bar:last-child {
+	-webkit-border-radius: 0 2px 2px 0;
+	-moz-border-radius: 0 2px 2px 0;
+	border-radius: 0 2px 2px 0
+}
+.progress .bar-success, .progress-success .bar {
+	border-color: #438e43
+}
+.progress .bar-warning, .progress-warning .bar {
+	border-color: #c97600
+}
+.progress .bar-danger, .progress-danger .bar {
+	border-color: #a62821
+}
+.table {
+	margin-bottom: 0
+}
+.table th, .table td {
+	border-color: #d5d5d5!important
+}
+.table.valign-middle td, .table.valign-middle th {
+	vertical-align: middle
+}
+.table-bordered thead:first-child tr:first-child>th:first-child, .table-bordered tbody:first-child tr:first-child>td:first-child {
+	-webkit-border-top-left-radius: 2px;
+	-moz-border-radius-topleft: 2px;
+	border-top-left-radius: 2px
+}
+.table-bordered thead:first-child tr:first-child>th:last-child, .table-bordered tbody:first-child tr:first-child>td:last-child {
+	-webkit-border-top-right-radius: 2px;
+	-moz-border-radius-topright: 2px;
+	border-top-right-radius: 2px
+}
+.table-bordered thead:last-child tr:last-child>th:first-child, .table-bordered tbody:last-child tr:last-child>td:first-child, .table-bordered tfoot:last-child tr:last-child>td:first-child {
+	-webkit-border-bottom-left-radius: 2px;
+	-moz-border-radius-bottomleft: 2px;
+	border-bottom-left-radius: 2px
+}
+.table-bordered thead:last-child tr:last-child>th:last-child, .table-bordered tbody:last-child tr:last-child>td:last-child, .table-bordered tfoot:last-child tr:last-child>td:last-child {
+	-webkit-border-bottom-right-radius: 2px;
+	-moz-border-radius-bottomright: 2px;
+	border-bottom-right-radius: 2px
+}
+
+.module-head h3 {
+	font-size: 14px;
+	line-height: 20px;
+	height: 20px;
+	margin: 0
+}
+.module-option {
+	border-bottom: 1px solid #e5e5e5;
+	padding: 15px 0;
+	margin: 0 15px
+}
+.module-body {
+	padding: 15px
+}
+.module-body.table {
+	padding: 15px 0
+}
+.module-body.table .table th, .module-body.table .table td {
+	padding-left: 15px;
+	padding-right: 15px
+}
+.module-foot {
+	background: #f9f9f9;
+	border-top: 1px solid #ddd;
+	-webkit-border-radius: 0 0 2px 2px;
+	-moz-border-radius: 0 0 2px 2px;
+	border-radius: 0 0 2px 2px;
+	padding: 15px
+}
+.datatable-pagination {
+	float: right
+}
+.datatable-pagination>a {
+	
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 30px;
+	height: 30px;
+	background-color: #f5f5f5;
+	padding: 0px 12px;
+	text-align: center;
+	text-decoration: none!important;
+	text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+	vertical-align: middle
+}
+
+.datatable-pagination>a+a {
+	margin-left: -1px
+}
+.datatable-pagination>a:first-child {
+	-webkit-border-top-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-bottom-left-radius: 3px
+}
+.datatable-pagination>a:last-child {
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	border-bottom-right-radius: 3px
+}
+.datatable-pagination>a:hover {
+	background-color: #efefef;
+	background-image: -moz-linear-gradient(top, #f5f5f5, #e6e6e6);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f5f5), to(#e6e6e6));
+	background-image: -webkit-linear-gradient(top, #f5f5f5, #e6e6e6);
+	background-image: -o-linear-gradient(top, #f5f5f5, #e6e6e6);
+	background-image: linear-gradient(to bottom, #f5f5f5, #e6e6e6);
+	background-repeat: repeat-x;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe6e6e6', GradientType=0)
+}
+.datatable-pagination>a.paginate_disabled_previous, .datatable-pagination>a.paginate_disabled_next {
+		
+	
+	cursor: default
+}
+.datatable-pagination>a.paginate_disabled_previous i, .datatable-pagination>a.paginate_disabled_next i {
+	opacity: .5;
+	filter: alpha(opacity=50)
+}
+.datatable-pagination>a span {
+	display: none
+}

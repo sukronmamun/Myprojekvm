@@ -1,0 +1,23 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+
+
+RewriteCond %{SCRIPT_FILENAME} -f [OR]
+
+RewriteCond %{SCRIPT_FILENAME} -d
+
+
+
+RewriteRule ^.*$ - [S=84]
+
+
+
+RewriteRule ^Myprojek([a-zA-Z0-9-_]+)/([a-zA-Z0-9-_]+)\.html$  index.php?act=$1&item=$2 [QSA,NC]
+
+RewriteRule ^Myprojek/([a-zA-Z0-9]+)$ index.php?kategori=$1 [QSA,NC]
+
+RewriteRule ^Myprojek$  index.php [QSA,NC]
+
+</ifModule>

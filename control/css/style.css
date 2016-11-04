@@ -1,0 +1,29 @@
+*{
+	margin: 0px;
+	padding: 0;
+}
+#main{
+	width: 100%;
+}
+#head,#body,#footer{
+	float: left;
+	width: 100%;
+	background-color: red;
+}
+#head{
+	height: 50px;
+	background-color: #fff;
+	line-height: 50px;
+}
+#body{
+	background-color: #eee;
+	min-height: 600px;
+}
+#footer{
+	height:50px;
+
+}
+#clear{
+	clear: both;
+	
+}

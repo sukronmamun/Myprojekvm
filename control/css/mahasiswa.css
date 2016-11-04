@@ -1,0 +1,182 @@
+ body{
+        background-color: #f8f8f8;
+        font-family: "Avenir Next", Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+    }
+    .brand_tiket{
+    }
+    .login-from {
+    margin-top: 80px;
+    border: 1px solid #ddd;
+    }
+ 
+    .login-from h4 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+ 
+    p.return-home {
+    margin: 20px 0;
+    }
+    .form-area{
+        border-radius: 5px;
+
+    }
+    
+
+    
+    .pembicara{
+    min-height: 80px;
+    }
+
+    .hm{min-height: 580px;}
+    .con-detile{
+        text-align: center;
+
+    }
+.con-group >h4{
+        width: 100%;
+        background-color: #337ab7;
+        padding: 5px;
+        color: #fff;
+        border-radius: 4px 4px 0px 0px;
+        text-decoration: underline; 
+    }
+    .biaya{
+
+    }
+.pelaksanaan >h4{
+        width: 100%;
+        background-color: #f9b222;
+        padding: 5px;
+        color: #fff;
+        border-radius: 4px 4px 0px 0px;
+        text-decoration: underline; 
+    }
+  .con-group>h4>span{
+        font-size: 50px;
+        color: #fff;
+     }
+     .con-group{
+        min-width: 90%;
+        border-radius: 4px 4px 0px 0px;
+        min-height: 135px;
+        background-color: #1262a6;
+     }
+     .pelaksanaan:after{
+        background-image: url('../control/icon/samping.png');
+     }
+     .pelaksanaan{
+        min-width: 90%;
+        border-radius: 4px 4px 0px 0px;
+        min-height: 135px;
+        background-color: #885c06;
+     }
+     .pemisi{
+        width: 100%;
+        height: 130px;
+        float:left;
+
+
+     }
+     .pembahasan .btnp{
+        width: 100%;
+        
+        text-align: center;
+     }
+
+     .pembahasan .btnp a:hover{
+     text-decoration: none;
+     }
+     
+     .pembahasan{
+        height: 200px;
+     }
+     .pembicara, .pembahasan{
+       color: #888;
+       
+     }
+     .but_1{
+        background-color:#ef7d46;
+        color: #fff;
+        border-radius: 3px;
+        padding:10px 20%;
+         
+     }
+     .bg_c:hover{
+        box-shadow: 0px 0px 10px #000;
+     }
+     .bg_c label{
+        color: #ddd;
+     }
+     .bg_c{
+        margin: 5px 0;
+        border-radius: 5px;
+        overflow: hidden;
+        background-color: #141315;
+        transition:500ms;
+     }
+     .bg_c h3{
+        color: #ef7d46;
+        font-size: 1.4em;
+        font-family: 'Playfair Display', serif; 
+     }
+     .tema{
+      width: 100%;
+      height: 70px;
+      border-bottom: 1px solid #ddd;
+     }
+
+     .bg_c h4{
+        color: #7E5AE2;
+        font-size: 1.5em;   
+    }
+    
+    .fut ul{
+        padding-top: 20px;
+    }
+    footer h4{
+  text-align: center;
+}
+footer{
+  padding-top: 20px;
+  color: #000;
+  height: 30px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+footer li{
+  list-style: none;
+}
+.f_head{
+  color: #ef7d46;
+        font-size: 1.5em;
+        font-family: 'Playfair Display', serif; 
+}
+.copy{
+        color: #ef7d46;
+        font-size: 1em;
+        float: left;
+        text-align: center;
+}
+
+
+    .fut_h{
+      padding-top: 30px;
+      background-color: #222;  
+      min-height: 300px;
+      margin-bottom: -100px;
+      padding-bottom: 10px;
+    }
+    .fut_h ul{
+      color: #888;
+      padding-bottom: 10px;
+    }
+   .con_f div{
+    margin-top: -40px;
+    margin-left: 42px;
+    width: 210px;
+   }
+   .con_f{
+    padding:5px;
+   }
